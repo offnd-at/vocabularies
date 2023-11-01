@@ -1,6 +1,6 @@
 # Offnd.at vocabularies
 
-This repository contains vocabularies used to create URLs by [offnd.at](https://offnd.at).
+This repository contains vocabularies used by [offnd.at](https://offnd.at) to create URLs.
 
 ## Vocabulary hierarchy
 
