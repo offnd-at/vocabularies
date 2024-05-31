@@ -1,4 +1,4 @@
-# Offnd.at vocabularies
+#  offnd.at vocabularies
 
 This repository contains vocabularies used by [offnd.at](https://offnd.at) to create URLs.
 
