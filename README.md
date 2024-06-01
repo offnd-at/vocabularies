@@ -7,21 +7,21 @@ This repository contains vocabularies used by [offnd.at](https://offnd.at) to cr
 The folders in the repository are organized using following paths
 
 ```
-/{language}/{offensiveness}/{grammaticalNumber}/{grammaticalGender}/{partOfSpeech}.txt
+/{language}/{offensiveness}/{grammaticalNumber}/{grammaticalGender}/{theme}/{partOfSpeech}.txt
 ```
 
 where:
- - _language_ is [ISO 639-1](https://en.wikipedia.org/wiki/ISO_639-1) language code,
- - _offensiveness_ is one of [_Offensive_, _NonOffensive_],
- - _grammaticalNumber_ is optional and, if present, one of [_Singular_, _Plural_],
- - _grammaticalGender_ is optional and, if present, one of [_Masculine_, _Feminine_, _Neuter_, _MasculinePersonal_, _NonMasculinePersonal_],
- - _partOfSpeech_ is one of [_Adverbs_, _Nouns_, _Adjectives_]
-   - collections of nouns may be preceded with _{word}-_, where _word_ is noun's theme, e.g., `Politicians-Nouns.txt`
+ - _**language**_ is [ISO 639-1](https://en.wikipedia.org/wiki/ISO_639-1) language code,
+ - _**offensiveness**_ is one of `[offensive, non-offensive]`,
+ - _**grammaticalNumber**_ is one of `[none, singular, plural]`,
+ - _**grammaticalGender**_ is one of `[none, masculine, feminine, neuter, masculine-personal, non-masculine-personal]`,
+ - _**theme**_ is one of `[none, proper-names, politicians]`
+ - _**partOfSpeech**_ is one of `[adverbs, adjectives, nouns]`
    
 Example:
 
 ```
-/pl/Offensive/Plural/NonMasculinePersonal/Adjectives.txt
+/pl/offensive/plural/non-masculine-personal/none/adjectives.txt
 ```
 
 ## Contribution
